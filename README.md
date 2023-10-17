@@ -13,7 +13,7 @@ You can install this package via npm:
 ```bash
 npm install @collinsadi/swagger
 ```
-````
+
 
 ## Usage
 
