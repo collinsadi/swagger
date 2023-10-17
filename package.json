@@ -1,0 +1,25 @@
+{
+  "name": "@collinsadi/swagger",
+  "version": "1.0.0",
+  "description": "An Express.js middleware for auto-generating Swagger documentation from your routes, with support for route descriptions based on function names. Open-source and easy-to-use for documenting your Express applications.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/collinsadi/swagger"
+  }
+}
