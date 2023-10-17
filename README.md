@@ -1,6 +1,6 @@
-````markdown
+
 # @collinsadi/swagger
-```
+
 
 [![npm version](https://badge.fury.io/js/%40collinsadi%2Fswagger.svg)](https://www.npmjs.com/package/%40collinsadi%2Fswagger)
 
