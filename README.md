@@ -48,16 +48,37 @@ After generating the Swagger documentation, you can view it using Swagger UI by 
 http://your-server/docs
 ```
 
-### Configuration
-
-You can customize your Swagger documentation by modifying the `config` file.
 
 ## Example
 
 ```javascript
-const liveServer = "https://collinsadi.vercel.app";
-generateSwaggerDocumentation(app, 2000, liveServer);
+// Create an Express app
+const express = require("express");
+const generateSwaggerDocumentation = require("@collinsadi/swagger");
+const app = express();
+
+
+app.listen(2000, () => {
+    
+    console.log("Server Started")
+})
+
+const createUser = (req, res)=>{
+
+    res.send("User Created")
+
+}
+
+app.get("/users/create", createUser)
+
+// Generate Swagger documentation for your Express app
+generateSwaggerDocumentation(app, 2000, "https://collinsadi.vercel.app");
+
+
 ```
+
+![Local Image](Annotation.png)
+
 
 🌟 We welcome contributions! This project is open source and open for collaboration. Feel free to contribute, report issues, and help improve this package.
 
